@@ -1,3 +1,4 @@
+import fetch from "node-fetch"
 import db from '../../lib/database.js'
 import { plugins } from '../../lib/plugins.js'
 import { readMore, ranNumb, padLead, runtimes } from '../../lib/func.js'
