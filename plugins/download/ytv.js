@@ -59,7 +59,7 @@ handler.menudownload = ['ytvideo <url>']
 handler.tagsdownload = ['search']
 handler.command = /^(yt(v(ideo)?|mp4))$/i
 
-handler.premium = true
+handler.premium = false
 handler.limit = true
 
 export default handler
