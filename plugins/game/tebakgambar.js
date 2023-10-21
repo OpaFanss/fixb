@@ -1,8 +1,8 @@
 import db from '../../lib/database.js'
 import { tebakgambar } from '@bochilteam/scraper'
 
-let timeout = 120000
-let poin = 3499
+let timeout = 12000
+let poin = 34999
 let handler = async (m, { conn, usedPrefix, isPrems }) => {
 	conn.tebakgambar = conn.tebakgambar ? conn.tebakgambar : {}
 	let id = m.chat
@@ -42,7 +42,7 @@ handler.menufun = ['tebakgambar (money+)']
 handler.tagsfun = ['game']
 handler.command = /^(tebakgambar)$/i
 
-handler.premium = true
+handler.premium = false
 handler.game = true
 
 export default handler
