@@ -4,7 +4,7 @@ import { plugins } from '../../lib/plugins.js'
 import { promises } from 'fs'
 import { join } from 'path'
 import fs from 'fs'
-
+import fetch from "node-fetch"
 let tagstextpro = {
 	'offi': 'textpro.me Official',
 	'search': 'Make Text Effect',
